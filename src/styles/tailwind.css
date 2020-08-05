@@ -1,0 +1,109 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.deep-space {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.dark-ocean {
+  background: #005c97; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #363795,
+    #005c97
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #363795, #005c97);
+}
+
+.bg-url-blue {
+  background-image: url("https://image.freepik.com/vector-gratis/fondo-abstracto-color-azul-oscuro-simplemente-liso-telon-fondo_87543-166.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-url-team {
+  background-image: url("https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-position: center;
+  background-size: cover;
+}
+
+.skew-up-12 {
+  z-index: 20;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-width: 12vh 100vw 0 0;
+  border-style: solid;
+  border-color: #edf2f7 transparent transparent transparent;
+}
+
+.skew-bottom-12 {
+  z-index: 20;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-width: 0 0 12vh 100vw;
+  border-style: solid;
+  border-color: transparent transparent #edf2f7 transparent;
+}
+
+.skew-bottom-12-r {
+  z-index: 20;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-width: 0 100vw 12vh 0;
+  border-style: solid;
+  border-color: transparent transparent #edf2f7 transparent;
+}
+
+.h-72 {
+  height: 20rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+@media (min-width: 768px) {
+  .h-128 {
+    height: 30rem;
+  }
+}
+
+.scale-95 {
+  transform: scale(0.95);
+}
+
+.li-style {
+  @apply py-4 px-8 text-base font-semibold flex items-center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+}
