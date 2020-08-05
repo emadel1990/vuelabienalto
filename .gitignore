@@ -1,8 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-/src/assets/video/vba-web-red.mp4
-*.mp4
 
+src/assets/
 
 # dependencies
 /node_modules
