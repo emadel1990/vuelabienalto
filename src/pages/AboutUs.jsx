@@ -1,9 +1,10 @@
 import React from "react";
+import Nosotros from "../components/Nosotros";
 
 const AboutUs = () => {
   return (
-    <div>
-      <h1>AboutUs</h1>
+    <div className="bg-gray-200">
+      <Nosotros />
     </div>
   );
 };

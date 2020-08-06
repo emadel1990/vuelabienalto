@@ -1,5 +1,5 @@
 import React from "react";
-import portada from "../assets/video/nubes.mp4";
+import { portada } from "../components/constantes";
 
 const Header = () => {
   return (

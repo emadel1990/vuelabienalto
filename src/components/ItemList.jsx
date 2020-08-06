@@ -9,7 +9,7 @@ const ItemList = ({ num, content }) => {
             <span className="text-white font-bold">{num}</span>
           </div>
           <div className="flex-1 pl-">
-            <div class="font-medium">{content}</div>
+            <div className="font-medium">{content}</div>
           </div>
         </div>
       </li>

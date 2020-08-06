@@ -1,11 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { check, goal, pensando } from "../../components/constantes";
 import HeaderPages from "../../components/HeaderPages";
 import ContentList from "../../components/ContentList";
 import ItemList from "../../components/ItemList";
-
-import pensando from "../../assets/img/pensando.png";
-const gol = "https://image.flaticon.com/icons/svg/3214/3214721.svg";
-const check = "https://image.flaticon.com/icons/svg/929/929440.svg";
 
 export default function CoursePnl() {
   return (
@@ -64,9 +62,9 @@ export default function CoursePnl() {
           <ContentList svg={check} content="¿Qué es la PNL?" />
           <ContentList svg={check} content="Algo de su historia." />
           <ContentList svg={check} content="Principios de la PNL." />
-          <ContentList svg={gol} content="Mapa y territorio." />
+          <ContentList svg={goal} content="Mapa y territorio." />
           <ContentList
-            svg={gol}
+            svg={goal}
             content="Entendiendo tu modelo del mundo:  Modelos mentales (generalización, eliminación, distorsión)."
           />
           <ContentList
@@ -76,7 +74,7 @@ Valores, Meta programas."
           />
           <ContentList svg={check} content="Entrenando la observación." />
           <ContentList
-            svg={gol}
+            svg={goal}
             content="Los elementos del pensamiento:  Los Sistemas Representacionales:  Como detectarlos"
           />
           <ContentList svg={check} content="Proceso de pensamiento." />
@@ -85,32 +83,44 @@ Valores, Meta programas."
           <ContentList svg={check} content="Distancia óptima." />
           <ContentList svg={check} content="Accesos oculares." />
           <ContentList
-            svg={gol}
+            svg={goal}
             content="Conectando con las personas: El Rapport, Calibrar, Espejear y Acompasar."
           />
-          <ContentList svg={gol} content="Liderar con PNL." />
+          <ContentList svg={goal} content="Liderar con PNL." />
         </div>
       </div>
 
       <section className="bg-url-blue w-full h-64 flex items-center">
         <div className="grid grid-cols-3 mx-16 w-full">
-          <div className="col-span-2 bg-white h-48 rounded-l-lg">
-            <div className="py-6 px-8 flex items-center flex-col">
+          <div className="col-span-2 bg-white h-48 rounded-l-lg flex justify-center items-center">
+            <div className="py-6 px-8 flex flex-col items-center">
               <p className="text-gray-700 text-2xl font-semibold ">
                 10 meses, 2 encuentros mensuales
               </p>
               <p>Horario: De 18:00 a 22:00 Hs</p>
 
-              <div className="w-2/2  mb-2  h-12">
-                Cuota Mensual: $3500 + IVA $4235
-              </div>
-              <div className="w-2/2 sm:w-2/2 md:w-1/2 lg:w-2/2 xl:w-1/2 mb-2  h-12">
+              <p>Cuota Mensual: $3500 + IVA $4235</p>
+              <p>
                 Certificación Internacional: 100 U$D (Pagar 30 días antes de la
                 finalización)
-              </div>
+              </p>
             </div>
           </div>
-          <div className="col-span-1 bg-gray-400 h-48 rounded-r-lg"></div>
+          <div className="col-span-1 bg-gray-300 h-48 rounded-r-lg flex flex-col items-center p-4">
+            <h2 className="text-6xl md:text-5xl font-bold text-black">
+              $1500{" "}
+              <span className="text-base text-gray-700 italic">
+                + IVA $1815{" "}
+              </span>
+            </h2>
+            <Link
+              to="/"
+              target="_blank"
+              className="mx-auto lg:mx-0 bg-black hover:bg-gray-800 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+            >
+              Empezar
+            </Link>
+          </div>
         </div>
       </section>
     </div>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-import logoNav from "../assets/img/logo-nav.png";
+import { logoNav } from "../components/constantes";
 
 class Navbar extends Component {
   constructor(props) {

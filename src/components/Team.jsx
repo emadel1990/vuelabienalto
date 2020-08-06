@@ -1,13 +1,14 @@
 import React from "react";
 
 import Card from "./Card";
-
-import Claudio from "../assets/img/Clau.jpeg";
-import Yani from "../assets/img/Yani.jpeg";
-import Ariel from "../assets/img/Ariel.jpeg";
-import Gloria from "../assets/img/Gloria.jpeg";
-import Vivian from "../assets/img/Vivian.jpeg";
-import Pedro from "../assets/img/pedro-recorte.jpeg";
+import {
+  Claudio,
+  Yani,
+  Gloria,
+  Vivian,
+  Ariel,
+  Pedro,
+} from "../components/constantes";
 
 export default function Team() {
   //img, name, cargo, description, facebook, instagram

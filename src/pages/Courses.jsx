@@ -2,11 +2,12 @@ import React from "react";
 import Card from "../components/CoursesCard";
 import HeaderPages from "../components/HeaderPages";
 
-import PNL from "../assets/img/cursos/PNL.png";
-import ConstFamiliares from "../assets/img/cursos/familyconstellations.jpg";
-import Coaching from "../assets/img/cursos/coaching-ontologico.jpg";
-const oratoria =
-  "https://cgcesantafe.org.ar/wp-content/uploads/2017/10/oratoria-y-comunicacion.jpg";
+import {
+  PNL,
+  ConstFamiliares,
+  Coaching,
+  Oratoria,
+} from "../components/constantes";
 
 function Courses() {
   return (
@@ -44,7 +45,7 @@ function Courses() {
         />
 
         <Card
-          img={oratoria}
+          img={Oratoria}
           title="Curso de Constelaciones Familiares"
           description={[
             "Quizás te estás preguntando ¿Para qué me sirve la PNL?",

@@ -1,7 +1,7 @@
 import React from "react";
 import ReactPlayer from "react-player";
 
-import video from "../assets/video/vba-web-red.mp4";
+import { videoDirector } from "../components/constantes";
 
 const Video = () => {
   return (
@@ -18,7 +18,7 @@ const Video = () => {
       </div>
       <div className="md:w-3/4 mx-auto mb-8">
         <ReactPlayer
-          url={video}
+          url={videoDirector}
           controls={true}
           className=""
           width="100%"
