@@ -4,8 +4,8 @@ import ContentList from "../../components/ContentList";
 import ItemList from "../../components/ItemList";
 
 import pensando from "../../assets/img/pensando.png";
-import check from "../../assets/img/check.svg";
-import gol from "../../assets/img/gol.svg";
+const gol = "https://image.flaticon.com/icons/svg/3214/3214721.svg";
+const check = "https://image.flaticon.com/icons/svg/929/929440.svg";
 
 export default function CoursePnl() {
   return (
@@ -91,6 +91,28 @@ Valores, Meta programas."
           <ContentList svg={gol} content="Liderar con PNL." />
         </div>
       </div>
+
+      <section className="bg-url-blue w-full h-64 flex items-center">
+        <div className="grid grid-cols-3 mx-16 w-full">
+          <div className="col-span-2 bg-white h-48 rounded-l-lg">
+            <div className="py-6 px-8 flex items-center flex-col">
+              <p className="text-gray-700 text-2xl font-semibold ">
+                10 meses, 2 encuentros mensuales
+              </p>
+              <p>Horario: De 18:00 a 22:00 Hs</p>
+
+              <div className="w-2/2  mb-2  h-12">
+                Cuota Mensual: $3500 + IVA $4235
+              </div>
+              <div className="w-2/2 sm:w-2/2 md:w-1/2 lg:w-2/2 xl:w-1/2 mb-2  h-12">
+                Certificación Internacional: 100 U$D (Pagar 30 días antes de la
+                finalización)
+              </div>
+            </div>
+          </div>
+          <div className="col-span-1 bg-gray-400 h-48 rounded-r-lg"></div>
+        </div>
+      </section>
     </div>
   );
 }

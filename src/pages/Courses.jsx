@@ -1,8 +1,12 @@
 import React from "react";
 import Card from "../components/CoursesCard";
 import HeaderPages from "../components/HeaderPages";
+
 import PNL from "../assets/img/cursos/PNL.png";
 import ConstFamiliares from "../assets/img/cursos/familyconstellations.jpg";
+import Coaching from "../assets/img/cursos/coaching-ontologico.jpg";
+const oratoria =
+  "https://cgcesantafe.org.ar/wp-content/uploads/2017/10/oratoria-y-comunicacion.jpg";
 
 function Courses() {
   return (
@@ -11,7 +15,7 @@ function Courses() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  xl:grid-cols-4 gap-6 my-12 mx-24">
         <Card
           img={PNL}
-          title="Curso de Programación Neuro Lingüística"
+          title="Diplomado de Programación Neuro Lingüística"
           description={[
             "Quizás te estás preguntando ¿Para qué me sirve la PNL?",
             "La Programación Neuro Lingüística es una herramienta, que, si es bien desarrollada, mejora la vida...",
@@ -30,7 +34,7 @@ function Courses() {
         />
 
         <Card
-          img={PNL}
+          img={Coaching}
           title="Curso de Programación Neuro Lingüística"
           description={[
             "¿Qué son las Constelaciones Familiares?",
@@ -40,7 +44,7 @@ function Courses() {
         />
 
         <Card
-          img={ConstFamiliares}
+          img={oratoria}
           title="Curso de Constelaciones Familiares"
           description={[
             "Quizás te estás preguntando ¿Para qué me sirve la PNL?",
