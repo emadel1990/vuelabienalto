@@ -9,6 +9,7 @@ class Icon {
 
 const svgs = {
   // Para este ejemplo usaremos tres íconos de redes sociales
+
   youtube: new Icon(
     "0 0 512 512",
     (
