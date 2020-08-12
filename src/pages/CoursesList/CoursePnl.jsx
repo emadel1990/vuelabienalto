@@ -8,7 +8,10 @@ import ItemList from "../../components/ItemList";
 export default function CoursePnl() {
   return (
     <div className="bg-gray-200 w-full">
-      <HeaderPages title="Curso de Programación Neuro Lingüística" />
+      <HeaderPages
+        title="Curso de Programación Neuro Lingüística"
+        image="https://cdn2.hubspot.net/hubfs/3304491/iStock-497487570.jpg"
+      />
 
       <div className="my-8">
         <div className="w-32 md:w-48 mx-auto">
@@ -107,6 +110,7 @@ Valores, Meta programas."
             </div>
           </div>
           <div className="col-span-1 bg-gray-300 h-48 rounded-r-lg flex flex-col items-center p-4">
+            <h2>Inscripción</h2>
             <h2 className="text-6xl md:text-5xl font-bold text-black">
               $1500{" "}
               <span className="text-base text-gray-700 italic">

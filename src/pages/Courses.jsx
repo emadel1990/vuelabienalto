@@ -12,7 +12,10 @@ import {
 function Courses() {
   return (
     <div className="bg-gray-300 w-full">
-      <HeaderPages title="Cursos y Talleres" />
+      <HeaderPages
+        title="Cursos y Talleres"
+        image="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+      />
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  xl:grid-cols-4 gap-6 my-12 mx-24">
         <Card
           img={PNL}

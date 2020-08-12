@@ -6,7 +6,7 @@ export default function Card(props) {
   return (
     <div className="flex flex-col items-center justify-center bg-white p-4 shadow rounded-lg">
       <div className="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden h-40 w-40">
-        <img src={img} alt="Coach Claudio" className="h-full w-full" />
+        <img src={img} alt="Coaches" className="h-full w-full" />
       </div>
       <h2 className="mt-4 font-bold text-xl">{name}</h2>
       <h6 className="mt-2 text-sm font-medium">{cargo}</h6>

@@ -29,5 +29,5 @@ export const check = "https://image.flaticon.com/icons/svg/929/929440.svg";
 export const goal = "https://image.flaticon.com/icons/svg/3214/3214721.svg";
 
 //others
-export const pensando =
-  "https://lh3.googleusercontent.com/proxy/LeZwsChOGscV6DMEH9SnQDsjPgDBvz6dVybzw_k9iJvyMnQkRxrP2wY3ZM4NdjRdyY1e_hM1pBeseZG-HvUQuONgylV3qAztzmy9vuHwlYUkCPJa6T83ARL4kjjw6UA";
+
+export const pensando = `${uri}1S4hthKjfkYP20tG9HhfpSc7U4dVSbjYq`;
